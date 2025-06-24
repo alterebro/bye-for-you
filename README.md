@@ -1,6 +1,15 @@
-# X (Twitter) "For You" Remover.
+# X Tab Fixer
 
-> A Chrome extension that removes the "For You" tab from X (formerly Twitter) and automatically switches to the "Following" timeline.
+> **X (Twitter) "For You" Remover.** A Chrome extension that removes the "For You" tab from X (formerly Twitter) and automatically switches to the "Following" timeline.
+
+![X Tab Fixer](images/x-tab-fixer.jpg)
+
+### 🚫 Say goodbye to the “For You” algorithm.
+
+**X Tab Fixer** is a simple, lightweight extension that removes the *"For You"* tab from the top of your feed and ensures you're on the *"Following"* tab by default. 
+
+This extension does not collect any user data and operates solely on the page content of X.com. **No tracking, no data collection, no bloat**.
+
 
 ## Installation
 
