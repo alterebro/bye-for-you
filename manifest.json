@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "X Tab Fixer - 'For You' timeline remover",
+	"name": "Bye For You - Remove 'For You' X Tab",
 	"version": "0.1.0",
 	"description": "Removes the 'For You' tab from X (Twitter) and defaults to the 'Following' timeline.",
 	"permissions": [],
@@ -12,9 +12,9 @@
 		}
 	],
 	"icons": {
-		"16": "images/x-tab-fixer-16.png",
-		"48": "images/x-tab-fixer-48.png",
-		"128": "images/x-tab-fixer-128.png"
+		"16": "images/bye-for-you-16.png",
+		"48": "images/bye-for-you-48.png",
+		"128": "images/bye-for-you-128.png"
 	}
 }
   
