@@ -1,29 +1,41 @@
 (function () {
 	const removeForYouAndSelectFollowing = () => {
 		const navTabs = document.querySelectorAll('a[role="tab"]');
+		let selectFollowing = false;
 
 		navTabs.forEach(tab => {
 			const label = tab.textContent.trim();
 
 			if (/^For you$/i.test(label)) {
 				const parent = tab.closest('div[role="presentation"]');
+				const isSelected = tab.getAttribute('aria-selected') === 'true';
 				if (parent) {
-					parent.style.display = 'none';
-				}
-			}
-
-			if (/^Following$/i.test(label)) {
-				if (!tab.getAttribute('aria-selected')) {
-					tab.click();
+					if (isSelected) selectFollowing = true;
+					parent.remove();
 				}
 			}
 		});
+
+		if (selectFollowing) {
+			navTabs.forEach(tab => {
+				if (/^Following$/i.test(tab.textContent.trim())) {
+					tab.click();
+				}
+			});
+		}
 	};
 
-	// Initial run
-	removeForYouAndSelectFollowing();
+	const waitForTabs = () => {
+		const tabsExist = document.querySelectorAll('a[role="tab"]').length > 0;
+		if (tabsExist) {
+			removeForYouAndSelectFollowing();
+		} else {
+			setTimeout(waitForTabs, 500); 
+		}
+	};
 
-	// Mutation observer to handle client-side routing/dynamic changes
+	waitForTabs();
+
 	const observer = new MutationObserver(() => {
 		removeForYouAndSelectFollowing();
 	});
