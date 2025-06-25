@@ -1,16 +1,36 @@
 # Bye 'For You' 👋 
 
-## Remove 'For you' X (Twitter) Tab.
+## Remove the "For You" Tab on X (formerly Twitter)
 
-> Chrome extension that removes the "For You" tab from X (formerly Twitter) and defaults to the "Following" timeline.
-
-![Bye For You](images/bye-for-you.jpg)
+> A Chrome extension that removes the "For You" tab from X and defaults to the "Following" timeline.
 
 ### 🚫 Say goodbye to the “For You” algorithm.
 
-_**Bye 'For You'**_ is a simple and lightweight extension that removes the *"For You"* tab from the top of your feed and switches you back to the *"Following"* tab so you'll follow only who you follow.
+_**Bye "For You"**_ is a simple and lightweight extension that removes the *"For You"* tab from the top of your feed and switches you back to the *"Following"* tab so you follow only who you actually follow.
 
 This extension does not collect any user data and operates solely on the page content of X.com. **No tracking, no data collection, no bloat**.
+
+![Bye For You](images/bye-for-you.jpg)
+
+
+## 🧩 Language Support & Contributions
+
+This extension currently supports the following interface languages:
+
+- **English**
+- **Spanish**
+- **French**
+
+If you use X in another language and want the extension to work for you too — you can help!
+
+Open a **Pull Request** or **Issue** with the translations used for the "For You" and "Following" tabs, including the language code:
+
+```js
+'es': { forYou: 'Para ti', following: 'Siguiendo' }
+```
+
+Your contribution will help users around the world escape the "For You" trap.
+<br />Thanks for helping improve digital sanity! 🙌
 
 
 ## Installation
@@ -19,6 +39,7 @@ This extension does not collect any user data and operates solely on the page co
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked" and select the extension directory
+
 
 ---
 

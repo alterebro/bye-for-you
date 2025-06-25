@@ -1,12 +1,29 @@
 (function () {
+	const LANG_MAP = {
+		'en': { forYou: 'For you', following: 'Following' },
+		'es': { forYou: 'Para ti', following: 'Siguiendo' },
+		'fr': { forYou: 'Pour vous', following: 'Abonnements' },
+	};
+
+	const getLanguage = () => {
+		const lang = document.documentElement.lang || navigator.language || 'en';
+		return lang.split('-')[0]; 
+	};
+
+	const getLabels = () => {
+		const langCode = getLanguage();
+		return LANG_MAP[langCode] || LANG_MAP['en'];
+	};
+
 	const removeForYouAndSelectFollowing = () => {
+		const { forYou, following } = getLabels();
 		const navTabs = document.querySelectorAll('a[role="tab"]');
 		let selectFollowing = false;
 
 		navTabs.forEach(tab => {
 			const label = tab.textContent.trim();
 
-			if (/^For you$/i.test(label)) {
+			if (label.toLowerCase() === forYou.toLowerCase()) {
 				const parent = tab.closest('div[role="presentation"]');
 				const isSelected = tab.getAttribute('aria-selected') === 'true';
 				if (parent) {
@@ -18,7 +35,8 @@
 
 		if (selectFollowing) {
 			navTabs.forEach(tab => {
-				if (/^Following$/i.test(tab.textContent.trim())) {
+				const label = tab.textContent.trim();
+				if (label.toLowerCase() === following.toLowerCase()) {
 					tab.click();
 				}
 			});
