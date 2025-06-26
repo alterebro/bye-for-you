@@ -12,12 +12,12 @@
 		}
 	],
 	"icons": {
-		"16": "images/bye-for-you-16.png",
-		"48": "images/bye-for-you-48.png",
-		"128": "images/bye-for-you-128.png"
+		"16": "icons/bye-for-you-16.png",
+		"48": "icons/bye-for-you-48.png",
+		"128": "icons/bye-for-you-128.png"
 	},
 	"action": {
-		"default_icon": "images/bye-for-you-48.png"
+		"default_icon": "icons/bye-for-you-48.png"
 	},
 	"browser_specific_settings": {
 		"gecko": {

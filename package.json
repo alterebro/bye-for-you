@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "archiver": "^7.0.1"
+  },
+  "name": "bye-for-you",
+  "version": "0.1.0",
+  "description": "Browser extension that removes the 'For you' tab from X (Twitter)",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alterebro/bye-for-you.git"
+  },
+  "keywords": [
+    "chrome",
+    "firefox",
+    "extension",
+    "addon",
+    "twitter",
+    "x"
+  ],
+  "author": "Jorge Moreno (@alterebro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alterebro/bye-for-you/issues"
+  },
+  "homepage": "https://github.com/alterebro/bye-for-you#readme"
+}
