@@ -15,6 +15,15 @@
 		"16": "images/bye-for-you-16.png",
 		"48": "images/bye-for-you-48.png",
 		"128": "images/bye-for-you-128.png"
+	},
+	"action": {
+		"default_icon": "images/bye-for-you-48.png"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "bye-for-you@alterebro.com",
+			"strict_min_version": "109.0"
+		}
 	}
 }
   
