@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "archiver": "^7.0.1"
+    "archiver": "^7.0.1",
+    "marked": "^15.0.12"
   },
   "name": "bye-for-you",
   "version": "0.1.0",
