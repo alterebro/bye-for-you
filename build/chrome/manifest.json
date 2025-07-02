@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Bye For You - Remove 'For You' X Tab",
+  "version": "0.1.0",
+  "description": "Removes the 'For You' tab from X (Twitter) and defaults to the 'Following' timeline.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitter.com/*",
+        "*://x.com/*"
+      ],
+      "js": [
+        "scripts/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/bye-for-you-16.png",
+    "48": "icons/bye-for-you-48.png",
+    "128": "icons/bye-for-you-128.png"
+  },
+  "action": {
+    "default_icon": "icons/bye-for-you-48.png"
+  }
+}

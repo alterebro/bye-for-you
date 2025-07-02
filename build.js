@@ -94,7 +94,7 @@ function zipDirectory(srcDir, outPath) {
 		copyExtras(outDir);
 		writeManifest(target, outDir);
 
-		const zipName = `bye-for-you-${target}-v${version}.zip`;
+		const zipName = `bye-for-you-${target}.zip`;
 		const zipPath = path.join(buildDir, zipName);
 		await zipDirectory(outDir, zipPath);
 
