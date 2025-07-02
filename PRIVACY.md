@@ -1,6 +1,6 @@
-### Privacy Policy: X Tab Fixer
+### Privacy Policy: Bye 'For You' 👋
 
-X Tab Fixer is a privacy-first browser extension which takes privacy seriously and commit to the following:
+Bye 'For You' 👋 is a privacy-first browser extension which takes privacy seriously and commit to the following:
 
 - It does not collect, store, or transmit any personal data.
 - It does not use cookies or trackers.

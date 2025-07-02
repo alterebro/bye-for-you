@@ -2,11 +2,11 @@
 
 ## Remove the "For You" Tab on X (formerly Twitter)
 
-> A Chrome extension that removes the "For You" tab from X and defaults to the "Following" timeline.
+> A Browser extension that removes the "For You" tab from X and defaults to the "Following" timeline.
 
 ### 🚫 Say goodbye to the “For You” algorithm.
 
-_**Bye "For You"**_ is a simple and lightweight extension that removes the *"For You"* tab from the top of your feed and switches you back to the *"Following"* tab so you follow only who you actually follow.
+_**Bye "For You"**_ is a simple and lightweight browser extension that removes the *"For You"* tab from the top of your feed and switches you back to the *"Following"* tab so you follow only who you actually follow.
 
 This extension does not collect any user data and operates solely on the page content of X.com. **No tracking, no data collection, no bloat**.
 

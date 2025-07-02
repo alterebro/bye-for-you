@@ -22,7 +22,9 @@
     "extension",
     "addon",
     "twitter",
-    "x"
+    "x",
+    "brave",
+    "opera"
   ],
   "author": "Jorge Moreno (@alterebro)",
   "license": "MIT",
