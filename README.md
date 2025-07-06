@@ -4,6 +4,11 @@
 
 > A Browser extension that removes the "For You" tab from X and defaults to the "Following" timeline.
 
+
+- **Chrome Extension** : [chromewebstore.google.com/detail/fjliicemokgekhghidligclkcapijldf](https://chromewebstore.google.com/detail/fjliicemokgekhghidligclkcapijldf)
+- **Mozilla Add-on** : [addons.mozilla.org/addon/bye-for-you](https://addons.mozilla.org/addon/bye-for-you/)
+
+
 ### 🚫 Say goodbye to the “For You” algorithm.
 
 _**Bye "For You"**_ is a simple and lightweight browser extension that removes the *"For You"* tab from the top of your feed and switches you back to the *"Following"* tab so you follow only who you actually follow.
