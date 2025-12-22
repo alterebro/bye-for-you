@@ -17,7 +17,7 @@
 
 	const removeForYouAndSelectFollowing = () => {
 		const { forYou, following } = getLabels();
-		const navTabs = document.querySelectorAll('a[role="tab"]');
+		const navTabs = document.querySelectorAll('div[role="tablist"] div[role="tab"]');
 		let selectFollowing = false;
 
 		navTabs.forEach(tab => {
