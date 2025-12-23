@@ -3,6 +3,7 @@
 		'en': { forYou: 'For you', following: 'Following' },
 		'es': { forYou: 'Para ti', following: 'Siguiendo' },
 		'fr': { forYou: 'Pour vous', following: 'Abonnements' },
+		'pt': { forYou: 'Para você', following: 'Seguindo' },
 	};
 
 	const getLanguage = () => {
