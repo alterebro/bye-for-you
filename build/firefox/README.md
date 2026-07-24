@@ -25,6 +25,9 @@ This extension currently supports the following interface languages:
 - **English**
 - **Spanish**
 - **French**
+- **Portuguese**
+- **Traditional chinese**
+- **Japanese**
 
 If you use X in another language and want the extension to work for you too, you can help!
 <br />Open a [Pull Request](https://github.com/alterebro/bye-for-you/pulls) or [Issue](https://github.com/alterebro/bye-for-you/issues) with the translations used for the "For You" and "Following" tabs, including the language code:

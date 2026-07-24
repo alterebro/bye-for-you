@@ -4,16 +4,22 @@
 		'es': { forYou: 'Para ti', following: 'Siguiendo' },
 		'fr': { forYou: 'Pour vous', following: 'Abonnements' },
 		'pt': { forYou: 'Para você', following: 'Seguindo' },
+		'zh-hant': { forYou: '為你推薦', following: '正在跟隨' },
+		'zh-tw': { forYou: '為你推薦', following: '正在跟隨' },
+		'zh': { forYou: '為你推薦', following: '正在跟隨' },
+		'ja': { forYou: 'おすすめ', following: 'フォロー中' }
 	};
 
 	const getLanguage = () => {
 		const lang = document.documentElement.lang || navigator.language || 'en';
-		return lang.split('-')[0]; 
+		return lang.toLowerCase();
 	};
 
 	const getLabels = () => {
-		const langCode = getLanguage();
-		return LANG_MAP[langCode] || LANG_MAP['en'];
+		const fullLang = getLanguage();
+		const baseLang = fullLang.split('-')[0];
+
+		return LANG_MAP[fullLang] || LANG_MAP[baseLang] || LANG_MAP['en'];
 	};
 
 	const removeForYouAndSelectFollowing = () => {
