@@ -25,6 +25,7 @@ This extension currently supports the following interface languages:
 - **English**
 - **Spanish**
 - **French**
+- **Portuguese**
 - **Traditional chinese**
 - **Japanese**
 
