@@ -7,7 +7,8 @@
 		'zh-hant': { forYou: '為你推薦', following: '正在跟隨' },
 		'zh-tw': { forYou: '為你推薦', following: '正在跟隨' },
 		'zh': { forYou: '為你推薦', following: '正在跟隨' },
-		'ja': { forYou: 'おすすめ', following: 'フォロー中' }
+		'ja': { forYou: 'おすすめ', following: 'フォロー中' },
+		'da': { forYou: 'Til dig', following: 'Følger' }
 	};
 
 	const getLanguage = () => {
